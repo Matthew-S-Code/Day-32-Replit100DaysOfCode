@@ -1,0 +1,5 @@
+import random
+
+greetings = ["Hello", "Bonjour", "Guten tag", "Hola", "Ciao"]
+  
+print(f"{greetings[random.randint(0,4)]}")
